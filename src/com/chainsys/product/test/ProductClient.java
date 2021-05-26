@@ -18,6 +18,7 @@ public class ProductClient {
 		String date;
 		DateTimeFormatter dateFormat;
 		int id;
+		System.out.println("Enter the choice");
 		Scanner scanner = new Scanner(System.in);
 		int choice = scanner.nextInt();
 		switch (choice) {
